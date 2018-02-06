@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To do list</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="bundle.js"></script>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <label >
+        Task
+      </label>
+      <input type="text" id="task" placeholder="e.g. clean the car" >
+      <label for=>
+        Date to be done by
+      </label>
+      <input type="text" id="date" placeholder="Fri 9th Feb">
+      <button type="submit" id="submit-task">Submit</button>
+    </form>
+    <button id="deleteButton" type="submit">Delete All</button>
+  </div>
+
+  <div class="list-container">
+    <ul id="tasks">
+    </ul>
+  </div>
+</body>
+</html>
